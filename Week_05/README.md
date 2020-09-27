@@ -1,7 +1,7 @@
 学习笔记
 
 
-1. JS表达式 | 运算符和表达式
+### 1. JS表达式 | 运算符和表达式
 * Grammer
   * Grammer Trees vs Priority
   * Left hand side & Right hand side
@@ -105,7 +105,7 @@
   * key
   * delete
   * assign
-2. JS表达式 | 类型转换
+### 2. JS表达式 | 类型转换
 * Type Convertion
 
   * a + b
@@ -133,7 +133,7 @@
 | Boolean | new Boolean(true) | true |
 | Symbol | new Object(Symbol("a")) | Symbol("a") |
 
-3. JS语句 | 运行时相关概念
+### 3. JS语句 | 运行时相关概念
 * Grammer
   * 简单语句
   * 组合语句
@@ -146,7 +146,7 @@
     * [[target]]: label
   * Lexical Environment 词法环境（作用域相关）
 
-4. JS语句 | 简单语句和复合语句
+### 4. JS语句 | 简单语句和复合语句
 * 简单语句
   * ExpressionStatement
   * EmptyStatement
@@ -182,7 +182,7 @@
     * WithStatement
     * LabelledStatement
     * TryStatement
-5. 语句 | 声明
+### 5. 语句 | 声明
   * 声明
     * FunctionDeclaration
     * GeneratorDeclaration
@@ -193,7 +193,7 @@
     * LexicalDeclaration
   > 预处理机制，var 变量提升 作用域，var 函数级作用域，let/const 块级作用域
 
-6. JS结构化 | 宏任务和微任务
+### 6. JS结构化 | 宏任务和微任务
   * JS执行粒度（运行时）
     * 宏任务
     * 微任务 (Promise)
@@ -207,7 +207,7 @@
     * 例如浏览器等待一些事件，获取代码，执行然后循环此操作
     * 例如node 等待 IO
 
-7. JS结构化 | JS函数调用
+### 7. JS结构化 | JS函数调用
   * ECMAScript Code Execution Context
     * code evaluation state
     * Function
