@@ -91,8 +91,6 @@
             }
             for (let p of Object.getOwnPropertyNames(o)) {
                 const d = Object.getOwnPropertyDescriptor(o, p);
-                console.log(d)
-                console.log(p)
                 if (
                     (d.value !== null && typeof d.value === 'object') ||
                     typeof d.value === 'function'
