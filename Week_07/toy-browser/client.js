@@ -1,4 +1,5 @@
 const net = require('net');
+const parser = require('./parser')
 
 class Request {
     constructor(options) {
@@ -214,13 +215,13 @@ void (async function () {
             // ['Content-Type']: 'application/json',
         },
         body: {
-            name: 'mxin',
+            name: 'zxc',
         },
     });
 
     let response = await request.send();
 
+    let dom = parser.parserHTML(response.body)
+
     console.log('response', response);
 })();
-
-
